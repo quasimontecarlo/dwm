@@ -17,6 +17,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar	    = 2;	/* horizontal padding for statusbar */
 static const int vertpadbar	    = 4;	/* vertical padding for statusbar */
+static const int vertpad	    = 15;	/* outer vert pad */
+static const int sidepad	    = 15;	/* outer side pad */
 static const char *fonts[]          = { "FiraCode-Regular:size=10" };
 static const char dmenufont[]       = "FiraCode-Retina:size=12";
 static const char col_gray1[]       = "#3b4252";
